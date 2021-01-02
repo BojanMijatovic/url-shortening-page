@@ -1,0 +1,75 @@
+.footer {
+  background-color: $very-dark-blue;
+  color: $very-light-gray;
+  display: flex;
+  flex-direction: column;
+
+  //  form
+  .input-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 2rem;
+    //  input
+    input {
+      border: none;
+      font-size: 1.4rem;
+      color: $dark-gray-blue;
+      padding: 0.5rem 0.8rem;
+      border-radius: 1.5rem;
+    }
+    .btn {
+      margin-left: 2rem;
+      background-color: $bright-red;
+      color: $very-light-gray;
+      font-size: 1.4rem;
+      padding: 0.5rem 1.5rem;
+      border-radius: 1.5rem;
+    }
+  }
+
+  // links
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    .links-items {
+      //  single item
+      .item {
+        font-size: 1.4rem;
+        color: $very-light-gray;
+        margin: 1rem;
+        cursor: pointer;
+      }
+    }
+  }
+
+  // icons
+  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    //  icon
+    .icon {
+      margin: 1rem 2rem;
+      width: 5%;
+      cursor: pointer;
+    }
+  }
+
+  //  logo
+  .logo {
+    padding: 3rem;
+    width: 50%;
+    margin: 2rem auto;
+    cursor: pointer;
+  }
+  // copyright
+  .copyright {
+    color: $very-light-gray;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 2rem;
+  }
+}

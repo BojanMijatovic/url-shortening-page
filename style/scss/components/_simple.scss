@@ -1,0 +1,25 @@
+#simple {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $bright-red;
+  // title
+  .title {
+    font-size: 3.3rem;
+    text-align: center;
+    color: $pale-red;
+    padding: 3rem;
+    font-weight: 700;
+  }
+  // btn
+  .btn {
+    font-size: 1.4rem;
+    padding: 0.5rem 2rem;
+    border-radius: 1.8rem;
+    color: $bright-red;
+    background-color: $very-light-gray;
+    font-weight: 500;
+    margin: 2rem 0 5rem;
+  }
+}
