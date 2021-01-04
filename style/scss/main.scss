@@ -1,10 +1,12 @@
-@import './general/reset';
 @import './general/variables';
-@import './general/responsive';
-//  components
+@import './general/reset';
 
+//  components
 @import './components/header';
 @import './components/hero';
 @import './components/search';
 @import './components/boost';
 @import './components/footer';
+
+//  responsive
+@import './general/responsive';

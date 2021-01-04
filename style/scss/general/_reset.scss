@@ -24,6 +24,15 @@ a {
   text-decoration: none;
 }
 
+// copyright
+.copyright {
+  color: $white;
+  background-color: $very-dark-violet;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 1rem;
+}
+
 //  media
 //medium
 @mixin media-md {

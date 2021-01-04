@@ -41,6 +41,9 @@
       padding: 0.5rem;
       border: none;
       width: 100%;
+      &:focus {
+        outline: none;
+      }
     }
   }
   // statistic
@@ -53,7 +56,6 @@
     // text
     .text {
       text-align: center;
-
       // title
       .title {
         font-size: 2.2rem;
