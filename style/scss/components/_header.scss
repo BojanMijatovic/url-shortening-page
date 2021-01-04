@@ -10,7 +10,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      background-color: fuchsia;
+      background-color: $dark-violet;
       position: fixed;
       width: 100%;
       height: 100%;
@@ -30,15 +30,22 @@
       }
       // btns
       .btns {
-        border-top: $white 1px solid;
+        border-top: $grayish-violet 1px solid;
         display: flex;
         flex-direction: column;
         align-items: center;
-
         a {
-          color: green;
+          color: $white;
           font-size: 2rem;
           margin: 1.5rem;
+          &:last-child {
+            background-color: $cyan;
+            padding: 0.5rem 4.5rem;
+            border-radius: 1.5rem;
+          }
+          &:focus {
+            outline: none;
+          }
         }
       }
     }
@@ -62,14 +69,14 @@
     //  toggle
     .toggle .line1 {
       transform: rotateZ(45deg) translateY(280%);
-      background: $very-dark-blue;
+      background: $white;
     }
     .toggle .line2 {
       opacity: 0;
     }
     .toggle .line3 {
       transform: rotateZ(-45deg) translateY(-300%);
-      background: $very-dark-blue;
+      background: $white;
     }
   }
 }
