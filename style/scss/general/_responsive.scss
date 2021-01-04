@@ -1,285 +1,283 @@
 // md media
 @include media-md {
-  .header {
-    width: 80%;
-  }
-  // hero section
-  #hero {
-    flex-direction: row-reverse;
-    margin-top: 8rem;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    // text
-    .text {
-      .__title {
-        font-size: 3.5rem;
-      }
-      .__subtitle {
-        padding: 1rem;
-      }
-      .btn {
-        margin-top: 1.5rem;
-        width: 75%;
-      }
-    }
-    //  img
-    .img {
-      .__img {
-        margin: 5rem 0 0 4rem;
-      }
-    }
-  }
-  // search section
-  #search {
-    margin-top: 15rem;
-    //  form
-    .form {
-      width: 80%;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      padding: 1rem 2rem;
-      #search-text {
-        margin-bottom: 0;
+    .header {
         width: 80%;
-        margin: 1.5rem;
-        padding: 1rem;
-        text-align: left;
-        font-size: 1.5rem;
-      }
-      .btn {
-        width: 20%;
-        margin: 0.5rem;
-        padding: 1rem;
-      }
     }
-    //statistic
-    .statistic {
-      // text
-      .text {
-        .title {
-          font-size: 3rem;
-        }
-        .subtitle {
-          font-size: 1.8rem;
-          padding: 0 12rem;
-        }
-      }
-      //list
-      .list {
+    // hero section
+    #hero {
+        flex-direction: row-reverse;
         margin-top: 8rem;
-        // single item
-        .line {
-          width: 15rem;
-        }
-        .__item {
-          margin: 7rem;
-          .img {
-            width: 15%;
-            bottom: 6rem;
-            padding: 1rem;
-          }
-          .text {
-            padding: 0 3rem;
-            .title {
-              font-size: 2rem;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        // text
+        .text {
+            .__title {
+                font-size: 3.5rem;
             }
-            .info {
-              font-size: 1.4rem;
+            .__subtitle {
+                padding: 1rem;
             }
-          }
+            .btn {
+                margin-top: 1.5rem;
+                width: 75%;
+            }
         }
-      }
-    }
-  }
-  //  boost section
-  #boost {
-    background-image: url('../../images/bg-boost-desktop.svg');
-    .title {
-      font-size: 2.2rem;
-    }
-  }
-  //  footer
-  .footer {
-    //  title
-    .title {
-      font-size: 2.2rem;
-      margin: 2rem;
-    }
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    // list
-    .list {
-      .__items {
-        cursor: pointer;
-        &:hover {
-          color: $white;
+        //  img
+        .img {
+            .__img {
+                margin: 5rem 0 0 4rem;
+            }
         }
-        .__item {
-          font-size: 1.4rem;
-        }
-      }
     }
-    .icons {
-      margin-top: 9rem;
-      .icon {
-        img {
-          margin: 1rem;
-          &:hover {
-            cursor: pointer;
-          }
+    // search section
+    #search {
+        margin-top: 15rem;
+        //  form
+        .form {
+            width: 80%;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem 2rem;
+            #search-text {
+                margin-bottom: 0;
+                width: 80%;
+                margin: 1.5rem;
+                padding: 1rem;
+                text-align: left;
+                font-size: 1.5rem;
+            }
+            .btn {
+                width: 20%;
+                margin: 0.5rem;
+                padding: 1rem;
+            }
         }
-      }
+        //statistic
+        .statistic {
+            // text
+            .text {
+                .title {
+                    font-size: 3rem;
+                }
+                .subtitle {
+                    font-size: 1.8rem;
+                    padding: 0 12rem;
+                }
+            }
+            //list
+            .list {
+                margin-top: 8rem;
+                // single item
+                .line {
+                    width: 15rem;
+                }
+                .__item {
+                    margin: 7rem;
+                    .img {
+                        width: 15%;
+                        bottom: 6rem;
+                        padding: 1rem;
+                    }
+                    .text {
+                        padding: 0 3rem;
+                        .title {
+                            font-size: 2rem;
+                        }
+                        .info {
+                            font-size: 1.4rem;
+                        }
+                    }
+                }
+            }
+        }
     }
-  }
+    //  boost section
+    #boost {
+        background-image: url('../../images/bg-boost-desktop.svg');
+        .title {
+            font-size: 2.2rem;
+        }
+    }
+    //  footer
+    .footer {
+        //  title
+        .title {
+            font-size: 2.2rem;
+            margin: 2rem;
+        }
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        // list
+        .list {
+            .__items {
+                cursor: pointer;
+                &:hover {
+                    color: $white;
+                }
+                .__item {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+        .icons {
+            margin-top: 9rem;
+            .icon {
+                img {
+                    margin: 1rem;
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
 }
 
 //  lg media
 @include media-lg {
-  //  header
-  .header {
-    margin: 3rem auto;
-    width: 80%;
-    .logo {
-      img {
-        width: 100%;
-      }
-    }
-    //  nav
-    .nav {
-      .nav-list {
-        flex-direction: row;
-        position: relative;
-        align-items: center;
-        justify-content: space-between;
-        left: 0%;
-        background-color: white;
-        .__item {
-          margin: 0;
-          a {
-            color: $very-dark-violet;
-            margin: 0 2rem;
-            transition: all 0.3s ease-in;
-            &:hover {
-              border-bottom: 1px solid $very-dark-violet;
+    //  header
+    .header {
+        margin: 3rem auto;
+        width: 80%;
+        .logo {
+            img {
+                width: 90%;
             }
-          }
         }
-        .btns {
-          display: block;
-          margin-left: 10rem;
-          border-top: none;
-
-          a {
-            transition: all 0.3s ease-in-out;
-            &:hover {
-              color: $dark-violet;
+        //  nav
+        .nav {
+            .nav-list {
+                flex-direction: row;
+                position: relative;
+                align-items: center;
+                justify-content: space-between;
+                left: 0%;
+                background-color: white;
+                .__item {
+                    margin: 0;
+                    a {
+                        color: $very-dark-violet;
+                        padding: 0 1rem;
+                        transition: all 0.3s ease-in;
+                        &:hover {
+                            border-bottom: 1px solid $very-dark-violet;
+                        }
+                    }
+                }
+                .btns {
+                    display: block;
+                    margin-left: 10rem;
+                    border-top: none;
+                    a {
+                        transition: all 0.3s ease-in-out;
+                        &:hover {
+                            color: $dark-violet;
+                        }
+                        &:last-child {
+                            color: $white;
+                            &:hover {
+                                background-color: $dark-violet;
+                            }
+                        }
+                    }
+                }
             }
-            &:last-child {
-              color: $white;
-              &:hover {
-                background-color: $dark-violet;
-              }
+            .btn-burger-menu {
+                display: none;
             }
-          }
+            .nav-open {
+                transform: none;
+            }
         }
-      }
-      .btn-burger-menu {
-        display: none;
-      }
-      .nav-open {
-        transform: none;
-      }
     }
-  }
-
-  //  hero section
-  #hero {
-    margin-top: 12rem;
-    // text
-    .text {
-      .__title {
-        font-size: 5rem;
-      }
-      .__subtitle {
-        padding: 1rem 4rem;
-        font-size: 1.8rem;
-        margin: 1rem 0;
-      }
-      .btn {
-        width: 60%;
-        font-size: 2rem;
-        font-weight: 500;
-      }
+    //  hero section
+    #hero {
+        margin-top: 12rem;
+        // text
+        .text {
+            .__title {
+                font-size: 5rem;
+            }
+            .__subtitle {
+                padding: 1rem 4rem;
+                font-size: 1.8rem;
+                margin: 1rem 0;
+            }
+            .btn {
+                width: 60%;
+                font-size: 2rem;
+                font-weight: 500;
+                padding: 1rem 1.5rem;
+            }
+        }
     }
-  }
-
-  // search section
-  #search {
-    .form {
-      width: 75%;
-      padding: 2rem;
-      #search-text {
-        font-size: 1.8rem;
-      }
-      .btn {
-        font-size: 1.8rem;
-        font-weight: 500;
-      }
+    // search section
+    #search {
+        .form {
+            width: 75%;
+            padding: 2rem;
+            #search-text {
+                font-size: 1.8rem;
+            }
+            .btn {
+                font-size: 1.8rem;
+                font-weight: 500;
+            }
+        }
+        // statistic
+        .statistic {
+            .text {
+                margin-bottom: 4rem;
+                .title {
+                    font-size: 3.5rem;
+                }
+            }
+            // list
+            .list {
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                position: relative;
+                bottom: 15rem;
+                //  single item
+                .__item {
+                    padding: 0 2rem;
+                    margin: 0;
+                    &:nth-of-type(2) {
+                        margin-top: 15rem;
+                    }
+                    &:nth-of-type(3) {
+                        margin-top: 35rem;
+                    }
+                    // img
+                    .img {
+                        bottom: 3rem;
+                        width: 25%;
+                    }
+                }
+                //  line
+                .line {
+                    transform: rotateX(0deg);
+                    &:last-of-type {
+                        position: relative;
+                        top: 10rem;
+                    }
+                }
+            }
+        }
     }
-    // statistic
-    .statistic {
-      .text {
-        margin-bottom: 4rem;
+    // boost section
+    #boost {
         .title {
-          font-size: 3.5rem;
+            font-size: 3.2rem;
+            margin: 4rem;
         }
-      }
-      // list
-      .list {
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        position: relative;
-        bottom: 15rem;
-        //  single item
-        .__item {
-          padding: 0 2rem;
-          margin: 0;
-          &:nth-of-type(2) {
-            margin-top: 15rem;
-          }
-          &:nth-of-type(3) {
-            margin-top: 35rem;
-          }
-          // img
-          .img {
-            bottom: 3rem;
-            width: 25%;
-          }
+        .btn {
+            font-size: 2.2rem;
+            margin-bottom: 3rem;
         }
-        //  line
-        .line {
-          transform: rotateX(0deg);
-          &:last-of-type {
-            position: relative;
-            top: 10rem;
-          }
-        }
-      }
     }
-  }
-  // boost section
-  #boost {
-    .title {
-      font-size: 3.2rem;
-      margin: 4rem;
-    }
-    .btn {
-      font-size: 2.2rem;
-      margin-bottom: 3rem;
-    }
-  }
 }
