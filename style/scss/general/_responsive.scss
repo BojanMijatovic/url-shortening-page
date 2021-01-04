@@ -141,4 +141,148 @@
 
 //  lg media
 @include media-lg {
+  //  header
+  .header {
+    margin: 3rem auto;
+    width: 80%;
+    .logo {
+      img {
+        width: 100%;
+      }
+    }
+    //  nav
+    .nav {
+      .nav-list {
+        flex-direction: row;
+        position: relative;
+        align-items: center;
+        justify-content: space-between;
+        left: 0%;
+        background-color: white;
+        .__item {
+          margin: 0;
+          a {
+            color: $very-dark-violet;
+            margin: 0 2rem;
+            transition: all 0.3s ease-in;
+            &:hover {
+              border-bottom: 1px solid $very-dark-violet;
+            }
+          }
+        }
+        .btns {
+          display: block;
+          margin-left: 10rem;
+          border-top: none;
+
+          a {
+            transition: all 0.3s ease-in-out;
+            &:hover {
+              color: $dark-violet;
+            }
+            &:last-child {
+              color: $white;
+              &:hover {
+                background-color: $dark-violet;
+              }
+            }
+          }
+        }
+      }
+      .btn-burger-menu {
+        display: none;
+      }
+      .nav-open {
+        transform: none;
+      }
+    }
+  }
+
+  //  hero section
+  #hero {
+    margin-top: 12rem;
+    // text
+    .text {
+      .__title {
+        font-size: 5rem;
+      }
+      .__subtitle {
+        padding: 1rem 4rem;
+        font-size: 1.8rem;
+        margin: 1rem 0;
+      }
+      .btn {
+        width: 60%;
+        font-size: 2rem;
+        font-weight: 500;
+      }
+    }
+  }
+
+  // search section
+  #search {
+    .form {
+      width: 75%;
+      padding: 2rem;
+      #search-text {
+        font-size: 1.8rem;
+      }
+      .btn {
+        font-size: 1.8rem;
+        font-weight: 500;
+      }
+    }
+    // statistic
+    .statistic {
+      .text {
+        margin-bottom: 4rem;
+        .title {
+          font-size: 3.5rem;
+        }
+      }
+      // list
+      .list {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        bottom: 15rem;
+        //  single item
+        .__item {
+          padding: 0 2rem;
+          margin: 0;
+          &:nth-of-type(2) {
+            margin-top: 15rem;
+          }
+          &:nth-of-type(3) {
+            margin-top: 35rem;
+          }
+          // img
+          .img {
+            bottom: 3rem;
+            width: 25%;
+          }
+        }
+        //  line
+        .line {
+          transform: rotateX(0deg);
+          &:last-of-type {
+            position: relative;
+            top: 10rem;
+          }
+        }
+      }
+    }
+  }
+  // boost section
+  #boost {
+    .title {
+      font-size: 3.2rem;
+      margin: 4rem;
+    }
+    .btn {
+      font-size: 2.2rem;
+      margin-bottom: 3rem;
+    }
+  }
 }
