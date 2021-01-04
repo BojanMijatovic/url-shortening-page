@@ -1,0 +1,123 @@
+#search {
+  background-color: rgba($gray, 0.3);
+  width: 100%;
+
+  // form
+  .form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    bottom: 5rem;
+    position: relative;
+    background-color: $dark-violet;
+    width: 90%;
+    margin: 0 auto;
+    background-image: url('../../images/bg-boost-mobile.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    // background-position: left;
+    padding: 2rem 3rem;
+    border-radius: 1.5rem;
+
+    // search-text
+    #search-text {
+      border: none;
+      padding: 0.5rem;
+      font-size: 1.3rem;
+      color: $grayish-violet;
+      width: 100%;
+      margin-bottom: 1.5rem;
+      border-radius: 1.2rem;
+      text-align: center;
+    }
+    // btn
+    .btn {
+      background-color: $cyan;
+      color: $white;
+      font-size: 1.6rem;
+      border-radius: 1.2rem;
+      padding: 0.5rem;
+      border: none;
+      width: 100%;
+    }
+  }
+  // statistic
+  .statistic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    // text
+    .text {
+      text-align: center;
+
+      // title
+      .title {
+        font-size: 2.2rem;
+        color: $very-dark-violet;
+      }
+      // subtitle
+      .subtitle {
+        color: $grayish-violet;
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+        padding: 0 0.5rem;
+      }
+    }
+    // list
+    .list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 5rem;
+      // single item
+      .__item {
+        text-align: center;
+        background-color: $white;
+        margin: 5rem 0;
+        padding: 1rem 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 1rem;
+
+        // img
+        .img {
+          position: relative;
+          bottom: 5rem;
+          background-color: $very-dark-blue;
+          border-radius: 50%;
+          width: 30%;
+          padding: 1.5rem;
+        }
+        // text
+        .text {
+          position: relative;
+          bottom: 2rem;
+          .title {
+            color: $very-dark-blue;
+            font-size: 1.6rem;
+            margin-bottom: 0.5rem;
+          }
+          .info {
+            color: $grayish-violet;
+            padding: 0.5rem 1rem;
+            font-size: 1.2rem;
+          }
+        }
+      }
+      //  line
+      .line {
+        width: 11rem;
+        height: 0.5rem;
+        padding: 0.5rem;
+        background-color: $cyan;
+        transform: rotate(90deg);
+      }
+    }
+  }
+}
