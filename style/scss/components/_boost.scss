@@ -1,0 +1,27 @@
+#boost {
+  background-color: $dark-violet;
+  background-image: url('../../images/bg-boost-mobile.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //  title
+  .title {
+    color: $white;
+    margin: 2rem;
+    font-size: 1.8rem;
+  }
+  // btn
+  .btn {
+    color: $white;
+    margin-bottom: 2.5rem;
+    padding: 0.5rem 2rem;
+    background-color: $cyan;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 1.5rem;
+  }
+}

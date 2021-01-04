@@ -22,7 +22,7 @@ a {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-top: 1.5rem;
+  margin: 1.5rem auto 0;
   width: 90%; }
   .header .nav-list {
     display: flex;
@@ -199,7 +199,7 @@ a {
             margin-bottom: 0.5rem; }
           #search .statistic .list .__item .text .info {
             color: #9e9aa7;
-            padding: 0.5rem 1rem;
+            padding: 0.5rem 0;
             font-size: 1.2rem; }
       #search .statistic .list .line {
         width: 11rem;
@@ -207,5 +207,28 @@ a {
         padding: 0.5rem;
         background-color: #2acfcf;
         transform: rotate(90deg); }
+
+#boost {
+  background-color: #3b3054;
+  background-image: url("../../images/bg-boost-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  #boost .title {
+    color: #f7f7f7;
+    margin: 2rem;
+    font-size: 1.8rem; }
+  #boost .btn {
+    color: #f7f7f7;
+    margin-bottom: 2.5rem;
+    padding: 0.5rem 2rem;
+    background-color: #2acfcf;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 1.5rem; }
 
 /*# sourceMappingURL=main.css.map */
